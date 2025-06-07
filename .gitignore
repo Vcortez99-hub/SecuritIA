@@ -1,84 +1,19 @@
-# Ambientes virtuais Python
-venv/
-env/
-.env
-ENV/
-.venv
-
-# Arquivos de ambiente e configuração
-.env
-.env.local
-.env.*.local
-config/secrets.py
-*.key
-
-# Dependências Node.js (se houver)
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Cache e arquivos temporários Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-*.egg-info/
-.pytest_cache/
-.coverage
-htmlcov/
-
-# Arquivos de IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-.DS_Store
-
-# Arquivos de build e distribuição
-build/
-dist/
-*.egg
-*.whl
-
-# Logs
-logs/
-*.log
-
-# Bancos de dados locais
-*.db
-*.sqlite
-*.sqlite3
-
-# Arquivos de modelo de IA (geralmente grandes)
-models/
-*.h5
-*.pkl
-*.pth
-*.ckpt
-checkpoints/
-
-# Dados sensíveis ou grandes
-data/raw/
-data/processed/
-*.csv
-*.json
-*.parquet
-
-# Jupyter Notebooks checkpoints
-.ipynb_checkpoints/
-
-# Arquivos de saída
-output/
-results/
-*.png
-*.jpg
-*.jpeg
-*.gif
-*.pdf
-
-# Arquivos específicos do sistema
-Thumbs.db
-.directory
+# Criar e escrever no arquivo .gitignore
+echo "# Ambientes virtuais Python" > .gitignore
+echo "venv/" >> .gitignore
+echo "env/" >> .gitignore
+echo ".env" >> .gitignore
+echo "" >> .gitignore
+echo "# Cache Python" >> .gitignore
+echo "__pycache__/" >> .gitignore
+echo "*.py[cod]" >> .gitignore
+echo "" >> .gitignore
+echo "# IDEs" >> .gitignore
+echo ".vscode/" >> .gitignore
+echo ".idea/" >> .gitignore
+echo "" >> .gitignore
+echo "# Dados e modelos" >> .gitignore
+echo "*.db" >> .gitignore
+echo "*.sqlite" >> .gitignore
+echo "models/*.h5" >> .gitignore
+echo "data/" >> .gitignore
