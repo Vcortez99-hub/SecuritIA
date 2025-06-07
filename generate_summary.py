@@ -8,7 +8,7 @@ import json
 from datetime import datetime
 from pathlib import Path
 
-def get_project_structure(path, prefix="", ignore_dirs={'.git', '__pycache__', 'venv', 'node_modules'}):
+def get_project_structure(path, prefix="", ignore_dirs={'.git', '__pycache__', 'venv', 'node_modules', '.vite', 'dist', 'build'}):
     """Gera a estrutura de diretórios do projeto"""
     structure = []
     path = Path(path)
@@ -32,7 +32,7 @@ def get_project_structure(path, prefix="", ignore_dirs={'.git', '__pycache__', '
         
     return structure
 
-def count_lines_of_code(path, extensions={'.py', '.js', '.jsx', '.ts', '.tsx'}):
+def count_lines_of_code(path, extensions={'.py', '.js', '.jsx', '.ts', '.tsx', '.css'}):
     """Conta linhas de código por tipo de arquivo"""
     stats = {}
     path = Path(path)

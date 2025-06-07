@@ -1,109 +1,163 @@
-# Nome do Projeto
+# SecuritIA 🛡️
 
-## Descrição
-[Breve descrição do que a aplicação faz]
+## 📋 Descrição
+SecuritIA é uma aplicação de segurança inteligente que utiliza IA para análise e monitoramento de segurança em tempo real.
 
-## Tecnologias Utilizadas
-- Python 3.x
-- [Listar principais bibliotecas/frameworks]
+## 🚀 Tecnologias Utilizadas
 
-## Estrutura do Projeto
+### Backend
+- **Python 3.x** - Linguagem principal
+- **FastAPI** - Framework web moderno e rápido
+- **SQLite** - Banco de dados
+- **Python-dotenv** - Gerenciamento de variáveis de ambiente
+
+### Frontend
+- **React + Vite** - Framework e build tool
+- **TypeScript** - Tipagem estática
+- **Tailwind CSS** - Estilização
+- **PostCSS** - Processamento de CSS
+
+## 📁 Estrutura do Projeto
 ```
-projeto/
+SECURIT IA/
 │
-├── src/                    # Código fonte principal
-│   ├── models/            # Modelos de IA
-│   ├── utils/             # Funções utilitárias
-│   └── main.py            # Arquivo principal
+├── Backend/
+│   ├── app/              # Aplicação principal
+│   ├── routers/          # Rotas da API
+│   ├── services/         # Lógica de negócio
+│   ├── utils/            # Funções utilitárias
+│   ├── main.py           # Ponto de entrada
+│   └── requirements.txt  # Dependências Python
 │
-├── data/                  # Dados (não versionados)
-│   ├── raw/              # Dados brutos
-│   └── processed/        # Dados processados
+├── Frontend/
+│   ├── src/              # Código fonte React
+│   ├── public/           # Arquivos públicos
+│   ├── index.html        # HTML principal
+│   └── package.json      # Dependências Node.js
 │
-├── config/                # Configurações
-│   └── config.py         # Configurações gerais
-│
-├── tests/                 # Testes
-│
-├── docs/                  # Documentação
-│   ├── architecture.md   # Arquitetura do sistema
-│   └── api.md           # Documentação da API
-│
-├── requirements.txt       # Dependências Python
-├── .env.example          # Exemplo de variáveis de ambiente
 ├── .gitignore            # Arquivos ignorados pelo Git
-└── README.md             # Este arquivo
+├── README.md             # Este arquivo
+├── AI_CONTEXT.md         # Contexto para IA Assistant
+└── docker-compose.yml    # Configuração Docker (se aplicável)
 ```
 
-## Instalação
+## 🔧 Instalação e Configuração
 
-### 1. Clone o repositório
+### Pré-requisitos
+- Python 3.8+
+- Node.js 16+
+- Git
+
+### Backend
+
+1. **Clone o repositório**
 ```bash
-git clone [URL_DO_SEU_REPOSITORIO]
-cd [NOME_DO_PROJETO]
+git clone https://github.com/Vcortez99-hub/SecuritIA.git
+cd SecuritIA
 ```
 
-### 2. Crie um ambiente virtual
+2. **Configure o ambiente Python**
 ```bash
+cd Backend
 python -m venv venv
-source venv/bin/activate  # Linux/Mac
-# ou
 venv\Scripts\activate  # Windows
+# ou
+source venv/bin/activate  # Linux/Mac
 ```
 
-### 3. Instale as dependências
+3. **Instale as dependências**
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Configure as variáveis de ambiente
+4. **Configure as variáveis de ambiente**
 ```bash
 cp .env.example .env
 # Edite o arquivo .env com suas configurações
 ```
 
-## Como Usar
-[Instruções de como executar a aplicação]
-
+5. **Execute o servidor**
 ```bash
-python src/main.py
+python main.py
+# ou
+uvicorn main:app --reload
 ```
 
-## Desenvolvimento
+O backend estará disponível em `http://localhost:8000`
 
-### Convenções de Código
-- Use PEP 8 para Python
-- Docstrings em todas as funções
-- Type hints quando possível
+### Frontend
 
-### Fluxo de Trabalho Git
-1. Crie uma branch para nova feature: `git checkout -b feature/nome-da-feature`
-2. Commit suas mudanças: `git commit -m "Adiciona nova feature"`
-3. Push para a branch: `git push origin feature/nome-da-feature`
-4. Abra um Pull Request
+1. **Em outro terminal, navegue para o Frontend**
+```bash
+cd Frontend
+```
 
-## Contexto para IA Assistant
+2. **Instale as dependências**
+```bash
+npm install
+```
 
-### Objetivo Principal
-[Descreva o objetivo principal da aplicação]
+3. **Configure as variáveis de ambiente**
+```bash
+cp .env.example .env
+# Configure a URL da API no .env
+```
 
-### Principais Componentes
-1. **[Componente 1]**: [Descrição]
-2. **[Componente 2]**: [Descrição]
+4. **Execute o servidor de desenvolvimento**
+```bash
+npm run dev
+```
 
-### Fluxo de Dados
-[Descreva como os dados fluem pela aplicação]
+O frontend estará disponível em `http://localhost:5173`
 
-### Decisões de Design
-- [Decisão 1]: [Motivo]
-- [Decisão 2]: [Motivo]
+## 📡 API Endpoints
 
-### Próximos Passos
-- [ ] [Tarefa 1]
-- [ ] [Tarefa 2]
+### Autenticação
+- `POST /api/auth/login` - Login de usuário
+- `POST /api/auth/register` - Registro de usuário
+- `POST /api/auth/logout` - Logout
 
-## Contribuindo
-[Como contribuir para o projeto]
+### Monitoramento
+- `GET /api/monitor/status` - Status do sistema
+- `GET /api/monitor/alerts` - Alertas ativos
+- `POST /api/monitor/scan` - Iniciar varredura
 
-## Licença
-[Tipo de licença]
+## 🐳 Docker (Opcional)
+
+Para executar com Docker:
+
+```bash
+docker-compose up -d
+```
+
+## 🧪 Testes
+
+### Backend
+```bash
+cd Backend
+pytest
+```
+
+### Frontend
+```bash
+cd Frontend
+npm test
+```
+
+## 🤝 Contribuindo
+
+1. Faça um Fork do projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
+3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
+4. Push para a branch (`git push origin feature/AmazingFeature`)
+5. Abra um Pull Request
+
+## 📞 Contato
+
+Vinicius Cortez - [@Vcortez99-hub](https://github.com/Vcortez99-hub)
+
+Link do Projeto: [https://github.com/Vcortez99-hub/SecuritIA](https://github.com/Vcortez99-hub/SecuritIA)
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.

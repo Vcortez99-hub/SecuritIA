@@ -1,0 +1,358 @@
+2025-06-03 15:55:56,390 - __main__ - INFO - SECURIT IA - Advanced Vulnerability Scanner
+2025-06-03 15:55:56,391 - __main__ - INFO - ==================================================
+2025-06-03 15:55:56,428 - __main__ - INFO - ==================================================
+2025-06-03 15:55:56,487 - main - INFO - Starting SECURIT IA Scanner...
+2025-06-03 15:55:56,500 - main - INFO - Database initialized
+2025-06-03 15:55:56,500 - main - INFO - Scanner initialized!
+2025-06-03 15:56:58,030 - main - ERROR - Error starting scan: 
+2025-06-03 15:57:11,509 - main - ERROR - Error starting scan: 
+2025-06-03 15:57:48,390 - main - ERROR - Error starting scan: 
+2025-06-03 15:59:07,134 - main - ERROR - Error starting scan: 
+2025-06-03 16:02:32,086 - main - ERROR - Error starting scan: 
+2025-06-03 18:46:49,127 - main - INFO - Shutting down...
+2025-06-03 18:46:52,161 - __main__ - INFO - SECURIT IA - Advanced Vulnerability Scanner
+2025-06-03 18:46:52,162 - __main__ - INFO - ==================================================
+2025-06-03 18:46:52,201 - __main__ - INFO - ==================================================
+2025-06-03 18:46:52,252 - main - INFO - Starting SECURIT IA Scanner...
+2025-06-03 18:46:52,255 - main - INFO - Database initialized
+2025-06-03 18:46:52,255 - main - INFO - Scanner initialized!
+2025-06-03 18:47:20,977 - main - INFO - Received scan request for target: https://botstore-yank.lovable.app/
+2025-06-03 18:47:20,982 - main - INFO - Request data: {'target': 'https://botstore-yank.lovable.app/', 'scan_type': 'comprehensive', 'ports': None, 'include_web_scan': True, 'include_vuln_scan': True, 'include_ssl_scan': True, 'timeout': 300}
+2025-06-03 18:47:20,982 - main - INFO - Testing scanner validation...
+2025-06-03 18:47:20,983 - main - INFO - Target validation result: False
+2025-06-03 18:47:20,983 - main - ERROR - Invalid target: https://botstore-yank.lovable.app/
+2025-06-03 18:47:20,983 - main - ERROR - HTTP Exception: Invalid target specified
+2025-06-03 18:49:21,638 - main - INFO - Received scan request for target: https://botstore-yank.lovable.app/
+2025-06-03 18:49:21,638 - main - INFO - Request data: {'target': 'https://botstore-yank.lovable.app/', 'scan_type': 'comprehensive', 'ports': None, 'include_web_scan': True, 'include_vuln_scan': True, 'include_ssl_scan': True, 'timeout': 300}
+2025-06-03 18:49:21,639 - main - INFO - Testing scanner validation...
+2025-06-03 18:49:21,639 - main - INFO - Target validation result: False
+2025-06-03 18:49:21,639 - main - ERROR - Invalid target: https://botstore-yank.lovable.app/
+2025-06-03 18:49:21,641 - main - ERROR - HTTP Exception: Invalid target specified
+2025-06-03 18:49:34,866 - main - INFO - Shutting down...
+2025-06-03 18:49:36,973 - __main__ - INFO - SECURIT IA - Advanced Vulnerability Scanner
+2025-06-03 18:49:36,973 - __main__ - INFO - ==================================================
+2025-06-03 18:49:36,983 - __main__ - INFO - ==================================================
+2025-06-03 18:49:37,027 - main - INFO - Starting SECURIT IA Scanner...
+2025-06-03 18:49:37,029 - main - INFO - Database initialized
+2025-06-03 18:49:37,029 - main - INFO - Scanner initialized!
+2025-06-03 18:49:42,233 - main - INFO - Received scan request for target: https://botstore-yank.lovable.app/
+2025-06-03 18:49:42,234 - main - INFO - Request data: {'target': 'https://botstore-yank.lovable.app/', 'scan_type': 'comprehensive', 'ports': None, 'include_web_scan': True, 'include_vuln_scan': True, 'include_ssl_scan': True, 'timeout': 300}
+2025-06-03 18:49:42,234 - main - INFO - Cleaned target: botstore-yank.lovable.app
+2025-06-03 18:49:42,234 - main - INFO - Testing scanner validation...
+2025-06-03 18:49:42,235 - main - INFO - Target botstore-yank.lovable.app is a valid domain
+2025-06-03 18:49:42,235 - main - INFO - Target validation result: True
+2025-06-03 18:49:42,235 - main - INFO - Generated scan ID: 2c80af6e-fa72-4225-835a-14d4059a520d
+2025-06-03 18:49:42,236 - main - INFO - Creating scan data: {'scan_id': '2c80af6e-fa72-4225-835a-14d4059a520d', 'target': 'botstore-yank.lovable.app', 'original_target': 'botstore-yank.lovable.app', 'status': 'starting', 'started_at': datetime.datetime(2025, 6, 3, 18, 49, 42, 236109), 'scan_type': 'comprehensive', 'progress': 0}
+2025-06-03 18:49:42,236 - main - INFO - Added to active_scans. Total active: 1
+2025-06-03 18:49:42,236 - main - INFO - Adding background task...
+2025-06-03 18:49:42,237 - main - INFO - Background task added successfully
+2025-06-03 18:49:42,237 - main - INFO - Returning response: {'scan_id': '2c80af6e-fa72-4225-835a-14d4059a520d', 'status': 'started', 'message': 'Scan started for botstore-yank.lovable.app', 'target': 'botstore-yank.lovable.app', 'original_target': 'botstore-yank.lovable.app'}
+2025-06-03 18:49:42,238 - main - INFO - Starting background scan 2c80af6e-fa72-4225-835a-14d4059a520d for botstore-yank.lovable.app
+2025-06-03 18:49:42,238 - main - INFO - Config: {'target': 'botstore-yank.lovable.app', 'scan_type': 'comprehensive', 'ports': None, 'include_web_scan': True, 'include_vuln_scan': True, 'include_ssl_scan': True, 'timeout': 300}
+2025-06-03 18:49:42,239 - main - INFO - Calling scanner.comprehensive_scan...
+2025-06-03 18:49:42,239 - main - INFO - Original target: botstore-yank.lovable.app, Cleaned target: botstore-yank.lovable.app
+2025-06-03 18:49:42,239 - main - INFO - Starting comprehensive scan 1d07aa20-b6ff-4b1f-a60a-c231fc5bb0cd for target: botstore-yank.lovable.app
+2025-06-03 18:49:42,239 - main - INFO - Scan config: {'target': 'botstore-yank.lovable.app', 'scan_type': 'comprehensive', 'ports': None, 'include_web_scan': True, 'include_vuln_scan': True, 'include_ssl_scan': True, 'timeout': 300}
+2025-06-03 18:49:42,239 - main - INFO - Adding to active_scans...
+2025-06-03 18:49:42,240 - main - INFO - Active scans count: 2
+2025-06-03 18:49:42,240 - main - INFO - Phase 1: Network discovery for botstore-yank.lovable.app
+2025-06-03 18:49:42,240 - main - INFO - Target botstore-yank.lovable.app is a valid domain
+2025-06-03 18:49:42,240 - main - INFO - Scanning 1000 ports on botstore-yank.lovable.app
+2025-06-03 18:50:42,537 - main - INFO - Network discovery result: {'open_ports': [80, 443], 'total_ports_scanned': 1000, 'host_status': 'up'}
+2025-06-03 18:50:42,537 - main - INFO - Phase 2: Service detection for botstore-yank.lovable.app
+2025-06-03 18:50:52,654 - main - INFO - Service detection found 2 services
+2025-06-03 18:50:52,654 - main - INFO - Phase 3: Vulnerability detection for botstore-yank.lovable.app
+2025-06-03 18:50:52,654 - main - INFO - Found 0 vulnerabilities
+2025-06-03 18:50:52,654 - main - INFO - Phase 4: SSL/TLS analysis for botstore-yank.lovable.app
+2025-06-03 18:50:52,768 - main - INFO - Phase 5: Web application analysis for botstore-yank.lovable.app
+2025-06-03 18:50:53,990 - main - INFO - Moving to scan_results...
+2025-06-03 18:50:53,990 - main - INFO - Scan 1d07aa20-b6ff-4b1f-a60a-c231fc5bb0cd completed successfully
+2025-06-03 18:50:53,991 - main - INFO - Scan completed: completed
+2025-06-03 18:50:53,991 - main - INFO - Saving to database...
+2025-06-03 18:50:54,000 - main - INFO - Scan 2c80af6e-fa72-4225-835a-14d4059a520d completed successfully
+2025-06-03 19:01:57,677 - main - INFO - Shutting down...
+2025-06-03 20:17:06,388 - __main__ - INFO - SECURIT IA - AI-Enhanced Vulnerability Scanner
+2025-06-03 20:17:06,389 - __main__ - INFO - ============================================================
+2025-06-03 20:17:06,404 - __main__ - INFO - ============================================================
+2025-06-03 20:17:06,417 - __main__ - INFO - ============================================================
+2025-06-03 20:17:06,427 - __main__ - INFO - ============================================================
+2025-06-03 20:17:06,520 - main - INFO - Starting SECURIT IA Advanced AI-Powered Scanner...
+2025-06-03 20:17:06,527 - main - INFO - Enhanced database initialized
+2025-06-03 20:17:06,528 - main - INFO - AI-Enhanced Scanner initialized!
+2025-06-03 20:17:32,341 - main - INFO - Received AI-enhanced scan request for target: https://botstore-yank.lovable.app/
+2025-06-03 20:17:32,342 - main - INFO - Cleaned target: botstore-yank.lovable.app
+2025-06-03 20:17:32,342 - main - INFO - Target botstore-yank.lovable.app is a valid domain
+2025-06-03 20:17:32,343 - main - INFO - Starting AI-enhanced scan 5c55eb45-0f2b-4600-a5ad-3eca7f5c83f2
+2025-06-03 20:17:32,343 - main - INFO - Added to active_scans. Total active: 1
+2025-06-03 20:17:32,344 - main - INFO - Starting AI-enhanced background scan 5c55eb45-0f2b-4600-a5ad-3eca7f5c83f2 for botstore-yank.lovable.app
+2025-06-03 20:17:32,344 - main - INFO - Original target: botstore-yank.lovable.app, Cleaned target: botstore-yank.lovable.app
+2025-06-03 20:17:32,345 - main - INFO - Phase 1: Enhanced network discovery for botstore-yank.lovable.app
+2025-06-03 20:17:32,345 - main - INFO - Target botstore-yank.lovable.app is a valid domain
+2025-06-03 20:17:32,345 - main - INFO - Scanning 1035 ports on botstore-yank.lovable.app
+2025-06-03 20:17:38,385 - main - INFO - Port scan progress: 100/1035 (9.7%)
+2025-06-03 20:17:44,414 - main - INFO - Port scan progress: 200/1035 (19.3%)
+2025-06-03 20:17:50,443 - main - INFO - Port scan progress: 300/1035 (29.0%)
+2025-06-03 20:17:56,468 - main - INFO - Port scan progress: 400/1035 (38.6%)
+2025-06-03 20:18:02,498 - main - INFO - Port scan progress: 500/1035 (48.3%)
+2025-06-03 20:18:08,512 - main - INFO - Port scan progress: 600/1035 (58.0%)
+2025-06-03 20:18:14,543 - main - INFO - Port scan progress: 700/1035 (67.6%)
+2025-06-03 20:18:20,576 - main - INFO - Port scan progress: 800/1035 (77.3%)
+2025-06-03 20:18:26,599 - main - INFO - Port scan progress: 900/1035 (87.0%)
+2025-06-03 20:18:32,613 - main - INFO - Port scan progress: 1000/1035 (96.6%)
+2025-06-03 20:18:35,617 - main - INFO - Found 4 open ports: [80, 443, 8080, 8443]
+2025-06-03 20:18:35,617 - main - INFO - Phase 2: AI-enhanced service detection for botstore-yank.lovable.app
+2025-06-03 20:18:35,670 - main - INFO - Detected service on port 80: unknown (confidence: 0.5)
+2025-06-03 20:18:35,689 - main - INFO - Detected service on port 443: unknown (confidence: 0.5)
+2025-06-03 20:18:45,715 - main - INFO - Detected service on port 8080: unknown (confidence: 0.5)
+2025-06-03 20:18:55,771 - main - INFO - Detected service on port 8443: unknown (confidence: 0.5)
+2025-06-03 20:18:55,771 - main - INFO - Phase 3: AI-powered vulnerability detection for botstore-yank.lovable.app
+2025-06-03 20:18:55,771 - main - INFO - Total vulnerabilities detected: 0
+2025-06-03 20:18:55,771 - main - INFO - Phase 4: Enhanced SSL/TLS analysis for botstore-yank.lovable.app
+2025-06-03 20:18:55,884 - main - INFO - Phase 5: AI-enhanced web application analysis for botstore-yank.lovable.app
+2025-06-03 20:19:50,688 - main - INFO - Phase 6: AI-powered risk analysis for botstore-yank.lovable.app
+2025-06-03 20:19:50,693 - main - INFO - Enhanced scan a1608e12-d628-42c0-a348-e91436493a46 completed successfully
+2025-06-03 20:19:50,696 - main - ERROR - Error saving enhanced scan to database: table scans has no column named critical_count
+2025-06-03 20:19:50,696 - main - INFO - AI-enhanced scan 5c55eb45-0f2b-4600-a5ad-3eca7f5c83f2 completed successfully
+2025-06-03 20:20:36,409 - main - INFO - Shutting down...
+2025-06-03 20:43:40,984 - __main__ - INFO - SECURIT IA - AI-Enhanced Vulnerability Scanner
+2025-06-03 20:43:40,984 - __main__ - INFO - ============================================================
+2025-06-03 20:43:41,005 - __main__ - INFO - ============================================================
+2025-06-03 20:43:41,024 - __main__ - INFO - ============================================================
+2025-06-03 20:43:41,034 - __main__ - INFO - ============================================================
+2025-06-03 20:43:41,152 - main - INFO - Starting SECURIT IA Advanced AI-Powered Scanner...
+2025-06-03 20:43:41,180 - main - INFO - Enhanced database initialized successfully with all required columns
+2025-06-03 20:43:41,180 - main - INFO - AI-Enhanced Scanner initialized!
+2025-06-04 08:49:16,088 - main - INFO - Shutting down...
+2025-06-04 08:49:18,981 - __main__ - INFO - SECURIT IA - AI-Enhanced Vulnerability Scanner
+2025-06-04 08:49:18,981 - __main__ - INFO - ============================================================
+2025-06-04 08:49:18,991 - __main__ - INFO - ============================================================
+2025-06-04 08:49:19,000 - __main__ - INFO - ============================================================
+2025-06-04 08:49:19,007 - __main__ - INFO - ============================================================
+2025-06-04 08:49:19,051 - main - INFO - Starting SECURIT IA Advanced AI-Powered Scanner...
+2025-06-04 08:49:19,075 - main - INFO - Enhanced database initialized successfully with all required columns
+2025-06-04 08:49:19,076 - main - INFO - AI-Enhanced Scanner initialized!
+2025-06-04 09:49:20,913 - main - INFO - Shutting down...
+2025-06-04 09:49:23,767 - __main__ - INFO - SECURIT IA - AI-Enhanced Vulnerability Scanner
+2025-06-04 09:49:23,768 - __main__ - INFO - ============================================================
+2025-06-04 09:49:23,787 - __main__ - INFO - ============================================================
+2025-06-04 09:49:23,814 - __main__ - INFO - ============================================================
+2025-06-04 09:49:23,832 - __main__ - INFO - ============================================================
+2025-06-04 09:49:23,906 - main - INFO - Starting SECURIT IA Advanced AI-Powered Scanner...
+2025-06-04 09:49:23,936 - main - INFO - Enhanced database initialized successfully with all required columns
+2025-06-04 09:49:23,936 - main - INFO - AI-Enhanced Scanner initialized!
+2025-06-04 10:33:25,220 - main - INFO - Shutting down...
+2025-06-04 10:33:27,202 - __main__ - INFO - SECURIT IA - AI-Enhanced Vulnerability Scanner
+2025-06-04 10:33:27,202 - __main__ - INFO - ============================================================
+2025-06-04 10:33:27,214 - __main__ - INFO - ============================================================
+2025-06-04 10:33:27,224 - __main__ - INFO - ============================================================
+2025-06-04 10:33:27,229 - __main__ - INFO - ============================================================
+2025-06-04 10:33:27,310 - main - INFO - Starting SECURIT IA Advanced AI-Powered Scanner...
+2025-06-04 10:33:27,332 - main - INFO - Enhanced database initialized successfully with all required columns
+2025-06-04 10:33:27,332 - main - INFO - AI-Enhanced Scanner initialized!
+2025-06-04 10:44:07,828 - main - INFO - Shutting down...
+2025-06-04 10:44:09,415 - __main__ - INFO - SECURIT IA - AI-Enhanced Vulnerability Scanner
+2025-06-04 10:44:09,416 - __main__ - INFO - ============================================================
+2025-06-04 10:44:09,424 - __main__ - INFO - ============================================================
+2025-06-04 10:44:09,433 - __main__ - INFO - ============================================================
+2025-06-04 10:44:09,440 - __main__ - INFO - ============================================================
+2025-06-04 10:44:09,474 - main - INFO - Starting SECURIT IA Advanced AI-Powered Scanner...
+2025-06-04 10:44:09,496 - main - INFO - Enhanced database initialized successfully with all required columns
+2025-06-04 10:44:09,496 - main - INFO - AI-Enhanced Scanner initialized!
+2025-06-04 14:02:26,235 - main - INFO - Shutting down...
+2025-06-04 14:06:23,962 - __main__ - INFO - SECURIT IA - AI-Enhanced Vulnerability Scanner
+2025-06-04 14:06:23,963 - __main__ - INFO - ============================================================
+2025-06-04 14:06:24,012 - __main__ - INFO - ============================================================
+2025-06-04 14:06:24,020 - __main__ - INFO - ============================================================
+2025-06-04 14:06:24,026 - __main__ - INFO - ============================================================
+2025-06-04 14:06:24,068 - main - INFO - Starting SECURIT IA Advanced AI-Powered Scanner...
+2025-06-04 14:06:24,101 - main - INFO - Enhanced database initialized successfully with all required columns
+2025-06-04 14:06:24,101 - main - INFO - AI-Enhanced Scanner initialized!
+2025-06-04 14:11:35,182 - main - INFO - Shutting down...
+2025-06-04 14:13:37,473 - __main__ - INFO - SECURIT IA - AI-Enhanced Vulnerability Scanner
+2025-06-04 14:13:37,474 - __main__ - INFO - ============================================================
+2025-06-04 14:13:37,488 - __main__ - INFO - ============================================================
+2025-06-04 14:13:37,496 - __main__ - INFO - ============================================================
+2025-06-04 14:13:37,559 - __main__ - INFO - ============================================================
+2025-06-04 14:13:37,659 - main - INFO - Starting SECURIT IA Advanced AI-Powered Scanner...
+2025-06-04 14:13:37,685 - main - INFO - Enhanced database initialized successfully with all required columns
+2025-06-04 14:13:37,685 - main - INFO - AI-Enhanced Scanner initialized!
+2025-06-04 14:14:20,776 - main - INFO - Shutting down...
+2025-06-04 14:14:38,786 - __main__ - INFO - SECURIT IA - AI-Enhanced Vulnerability Scanner
+2025-06-04 14:14:38,787 - __main__ - INFO - ============================================================
+2025-06-04 14:14:38,799 - __main__ - INFO - ============================================================
+2025-06-04 14:14:38,814 - __main__ - INFO - ============================================================
+2025-06-04 14:14:38,820 - __main__ - INFO - ============================================================
+2025-06-04 14:14:38,859 - main - INFO - Starting SECURIT IA Advanced AI-Powered Scanner...
+2025-06-04 14:14:38,885 - main - INFO - Enhanced database initialized successfully with all required columns
+2025-06-04 14:14:38,886 - main - INFO - AI-Enhanced Scanner initialized!
+2025-06-04 14:21:18,892 - main - INFO - Shutting down...
+2025-06-04 14:21:21,870 - __main__ - INFO - SECURIT IA - AI-Enhanced Vulnerability Scanner
+2025-06-04 14:21:21,870 - __main__ - INFO - ============================================================
+2025-06-04 14:21:21,881 - __main__ - INFO - ============================================================
+2025-06-04 14:21:21,890 - __main__ - INFO - ============================================================
+2025-06-04 14:21:21,901 - __main__ - INFO - ============================================================
+2025-06-04 14:21:21,984 - main - INFO - Starting SECURIT IA Advanced AI-Powered Scanner...
+2025-06-04 14:21:22,006 - main - INFO - Enhanced database initialized successfully with all required columns
+2025-06-04 14:21:22,006 - main - INFO - AI-Enhanced Scanner initialized!
+2025-06-04 14:24:35,550 - main - INFO - Shutting down...
+2025-06-04 14:24:38,027 - __main__ - INFO - SECURIT IA - AI-Enhanced Vulnerability Scanner
+2025-06-04 14:24:38,027 - __main__ - INFO - ============================================================
+2025-06-04 14:24:38,039 - __main__ - INFO - ============================================================
+2025-06-04 14:24:38,049 - __main__ - INFO - ============================================================
+2025-06-04 14:24:38,055 - __main__ - INFO - ============================================================
+2025-06-04 14:24:38,139 - main - INFO - Starting SECURIT IA Advanced AI-Powered Scanner...
+2025-06-04 14:24:38,162 - main - INFO - Enhanced database initialized successfully with all required columns
+2025-06-04 14:24:38,162 - main - INFO - AI-Enhanced Scanner initialized!
+2025-06-04 15:37:51,989 - main - INFO - Shutting down...
+2025-06-04 15:41:31,778 - __main__ - INFO - SECURIT IA - AI-Enhanced Vulnerability Scanner
+2025-06-04 15:41:31,779 - __main__ - INFO - ============================================================
+2025-06-04 15:41:31,792 - __main__ - INFO - ============================================================
+2025-06-04 15:41:31,801 - __main__ - INFO - ============================================================
+2025-06-04 15:41:31,807 - __main__ - INFO - ============================================================
+2025-06-04 15:41:31,896 - main - INFO - Starting SECURIT IA Advanced AI-Powered Scanner...
+2025-06-04 15:41:31,917 - main - INFO - Enhanced database initialized successfully with all required columns
+2025-06-04 15:41:31,917 - main - INFO - AI-Enhanced Scanner initialized!
+2025-06-04 15:47:33,229 - main - INFO - Shutting down...
+2025-06-04 15:47:38,010 - __main__ - INFO - SECURIT IA - AI-Enhanced Vulnerability Scanner
+2025-06-04 15:47:38,010 - __main__ - INFO - ============================================================
+2025-06-04 15:47:38,022 - __main__ - INFO - ============================================================
+2025-06-04 15:47:38,032 - __main__ - INFO - ============================================================
+2025-06-04 15:47:38,038 - __main__ - INFO - ============================================================
+2025-06-04 15:47:38,130 - main - INFO - Starting SECURIT IA Advanced AI-Powered Scanner...
+2025-06-04 15:47:38,203 - main - INFO - Enhanced database initialized successfully with all required columns
+2025-06-04 15:47:38,203 - main - INFO - AI-Enhanced Scanner initialized!
+2025-06-04 15:52:49,439 - main - INFO - Shutting down...
+2025-06-04 15:52:52,396 - __main__ - INFO - SECURIT IA - AI-Enhanced Vulnerability Scanner
+2025-06-04 15:52:52,397 - __main__ - INFO - ============================================================
+2025-06-04 15:52:52,406 - __main__ - INFO - ============================================================
+2025-06-04 15:52:52,416 - __main__ - INFO - ============================================================
+2025-06-04 15:52:52,423 - __main__ - INFO - ============================================================
+2025-06-04 15:52:52,508 - main - INFO - Starting SECURIT IA Advanced AI-Powered Scanner...
+2025-06-04 15:52:52,544 - main - INFO - Enhanced database initialized successfully with all required columns
+2025-06-04 15:52:52,544 - main - INFO - AI-Enhanced Scanner initialized!
+2025-06-04 16:04:11,463 - main - INFO - Shutting down...
+2025-06-04 16:04:31,266 - __main__ - INFO - SECURIT IA - AI-Enhanced Vulnerability Scanner
+2025-06-04 16:04:31,266 - __main__ - INFO - ============================================================
+2025-06-04 16:04:31,278 - __main__ - INFO - ============================================================
+2025-06-04 16:04:31,286 - __main__ - INFO - ============================================================
+2025-06-04 16:04:31,293 - __main__ - INFO - ============================================================
+2025-06-04 16:04:31,377 - main - INFO - Starting SECURIT IA Advanced AI-Powered Scanner...
+2025-06-04 16:04:31,396 - main - INFO - Enhanced database initialized successfully with all required columns
+2025-06-04 16:04:31,396 - main - INFO - AI-Enhanced Scanner initialized!
+2025-06-04 16:07:26,771 - main - INFO - Shutting down...
+2025-06-04 16:07:29,966 - __main__ - INFO - SECURIT IA - AI-Enhanced Vulnerability Scanner
+2025-06-04 16:07:29,967 - __main__ - INFO - ============================================================
+2025-06-04 16:07:29,981 - __main__ - INFO - ============================================================
+2025-06-04 16:07:29,991 - __main__ - INFO - ============================================================
+2025-06-04 16:07:29,997 - __main__ - INFO - ============================================================
+2025-06-04 16:07:30,094 - main - INFO - Starting SECURIT IA Advanced AI-Powered Scanner...
+2025-06-04 16:07:30,118 - main - INFO - Enhanced database initialized successfully with all required columns
+2025-06-04 16:07:30,118 - main - INFO - AI-Enhanced Scanner initialized!
+2025-06-04 16:10:12,160 - main - INFO - Shutting down...
+2025-06-04 16:10:18,974 - __main__ - INFO - SECURIT IA - AI-Enhanced Vulnerability Scanner
+2025-06-04 16:10:18,974 - __main__ - INFO - ============================================================
+2025-06-04 16:10:18,987 - __main__ - INFO - ============================================================
+2025-06-04 16:10:18,999 - __main__ - INFO - ============================================================
+2025-06-04 16:10:19,004 - __main__ - INFO - ============================================================
+2025-06-04 16:10:19,046 - main - INFO - Starting SECURIT IA Advanced AI-Powered Scanner...
+2025-06-04 16:10:19,092 - main - INFO - Enhanced database initialized successfully with all required columns
+2025-06-04 16:10:19,094 - main - INFO - AI-Enhanced Scanner initialized!
+2025-06-04 16:10:36,554 - main - INFO - Shutting down...
+2025-06-04 16:11:10,739 - __main__ - INFO - SECURIT IA - AI-Enhanced Vulnerability Scanner
+2025-06-04 16:11:10,740 - __main__ - INFO - ============================================================
+2025-06-04 16:11:10,752 - __main__ - INFO - ============================================================
+2025-06-04 16:11:10,759 - __main__ - INFO - ============================================================
+2025-06-04 16:11:10,766 - __main__ - INFO - ============================================================
+2025-06-04 16:11:10,801 - main - INFO - Starting SECURIT IA Advanced AI-Powered Scanner...
+2025-06-04 16:11:10,846 - main - INFO - Enhanced database initialized successfully with all required columns
+2025-06-04 16:11:10,847 - main - INFO - AI-Enhanced Scanner initialized!
+2025-06-04 16:11:49,439 - main - INFO - Shutting down...
+2025-06-04 16:11:52,865 - __main__ - INFO - SECURIT IA - AI-Enhanced Vulnerability Scanner
+2025-06-04 16:11:52,866 - __main__ - INFO - ============================================================
+2025-06-04 16:11:52,886 - __main__ - INFO - ============================================================
+2025-06-04 16:11:52,894 - __main__ - INFO - ============================================================
+2025-06-04 16:11:52,900 - __main__ - INFO - ============================================================
+2025-06-04 16:11:52,938 - main - INFO - Starting SECURIT IA Advanced AI-Powered Scanner...
+2025-06-04 16:11:52,960 - main - INFO - Enhanced database initialized successfully with all required columns
+2025-06-04 16:11:52,960 - main - INFO - AI-Enhanced Scanner initialized!
+2025-06-04 16:12:26,284 - main - INFO - Shutting down...
+2025-06-04 16:12:29,535 - __main__ - INFO - SECURIT IA - AI-Enhanced Vulnerability Scanner
+2025-06-04 16:12:29,536 - __main__ - INFO - ============================================================
+2025-06-04 16:12:29,547 - __main__ - INFO - ============================================================
+2025-06-04 16:12:29,558 - __main__ - INFO - ============================================================
+2025-06-04 16:12:29,563 - __main__ - INFO - ============================================================
+2025-06-04 16:12:29,659 - main - INFO - Starting SECURIT IA Advanced AI-Powered Scanner...
+2025-06-04 16:12:29,686 - main - INFO - Enhanced database initialized successfully with all required columns
+2025-06-04 16:12:29,687 - main - INFO - AI-Enhanced Scanner initialized!
+2025-06-04 16:18:34,732 - main - INFO - Shutting down...
+2025-06-04 16:18:37,965 - __main__ - INFO - SECURIT IA - AI-Enhanced Vulnerability Scanner
+2025-06-04 16:18:37,965 - __main__ - INFO - ============================================================
+2025-06-04 16:18:37,979 - __main__ - INFO - ============================================================
+2025-06-04 16:18:37,987 - __main__ - INFO - ============================================================
+2025-06-04 16:18:37,992 - __main__ - INFO - ============================================================
+2025-06-04 16:18:38,078 - main - INFO - Starting SECURIT IA Advanced AI-Powered Scanner...
+2025-06-04 16:18:38,104 - main - INFO - Enhanced database initialized successfully with all required columns
+2025-06-04 16:18:38,104 - main - INFO - AI-Enhanced Scanner initialized!
+2025-06-04 16:37:15,754 - main - INFO - Shutting down...
+2025-06-04 16:37:18,390 - __main__ - INFO - SECURIT IA - AI-Enhanced Vulnerability Scanner
+2025-06-04 16:37:18,390 - __main__ - INFO - ============================================================
+2025-06-04 16:37:18,403 - __main__ - INFO - ============================================================
+2025-06-04 16:37:18,412 - __main__ - INFO - ============================================================
+2025-06-04 16:37:18,419 - __main__ - INFO - ============================================================
+2025-06-04 16:37:18,515 - main - INFO - Starting SECURIT IA Advanced AI-Powered Scanner...
+2025-06-04 16:37:18,538 - main - INFO - Enhanced database initialized successfully with all required columns
+2025-06-04 16:37:18,538 - main - INFO - AI-Enhanced Scanner initialized!
+2025-06-04 16:42:22,754 - main - INFO - Shutting down...
+2025-06-04 16:42:27,527 - __main__ - INFO - SECURIT IA - AI-Enhanced Vulnerability Scanner
+2025-06-04 16:42:27,527 - __main__ - INFO - ============================================================
+2025-06-04 16:42:27,538 - __main__ - INFO - ============================================================
+2025-06-04 16:42:27,546 - __main__ - INFO - ============================================================
+2025-06-04 16:42:27,551 - __main__ - INFO - ============================================================
+2025-06-04 16:42:27,600 - main - INFO - Starting SECURIT IA Advanced AI-Powered Scanner...
+2025-06-04 16:42:27,637 - main - INFO - Enhanced database initialized successfully with all required columns
+2025-06-04 16:42:27,638 - main - INFO - AI-Enhanced Scanner initialized!
+2025-06-04 16:43:16,127 - main - INFO - Shutting down...
+2025-06-04 16:43:29,140 - __main__ - INFO - SECURIT IA - AI-Enhanced Vulnerability Scanner
+2025-06-04 16:43:29,140 - __main__ - INFO - ============================================================
+2025-06-04 16:43:29,150 - __main__ - INFO - ============================================================
+2025-06-04 16:43:29,161 - __main__ - INFO - ============================================================
+2025-06-04 16:43:29,166 - __main__ - INFO - ============================================================
+2025-06-04 16:43:29,202 - main - INFO - Starting SECURIT IA Advanced AI-Powered Scanner...
+2025-06-04 16:43:29,228 - main - INFO - Enhanced database initialized successfully with all required columns
+2025-06-04 16:43:29,228 - main - INFO - AI-Enhanced Scanner initialized!
+2025-06-04 17:55:25,215 - main - INFO - Shutting down...
+2025-06-04 17:55:28,176 - __main__ - INFO - SECURIT IA - AI-Enhanced Vulnerability Scanner
+2025-06-04 17:55:28,177 - __main__ - INFO - ============================================================
+2025-06-04 17:55:28,188 - __main__ - INFO - ============================================================
+2025-06-04 17:55:28,196 - __main__ - INFO - ============================================================
+2025-06-04 17:55:28,207 - __main__ - INFO - ============================================================
+2025-06-04 17:55:28,251 - main - INFO - Starting SECURIT IA Advanced AI-Powered Scanner...
+2025-06-04 17:55:28,278 - main - INFO - Enhanced database initialized successfully with all required columns
+2025-06-04 17:55:28,278 - main - INFO - AI-Enhanced Scanner initialized!
+2025-06-04 18:27:51,178 - main - INFO - Shutting down...
+2025-06-04 18:27:53,854 - __main__ - INFO - SECURIT IA - AI-Enhanced Vulnerability Scanner
+2025-06-04 18:27:53,855 - __main__ - INFO - ============================================================
+2025-06-04 18:27:53,865 - __main__ - INFO - ============================================================
+2025-06-04 18:27:53,872 - __main__ - INFO - ============================================================
+2025-06-04 18:27:53,877 - __main__ - INFO - ============================================================
+2025-06-04 18:27:53,919 - main - INFO - Starting SECURIT IA Advanced AI-Powered Scanner...
+2025-06-04 18:27:53,944 - main - INFO - Enhanced database initialized successfully with all required columns
+2025-06-04 18:27:53,945 - main - INFO - AI-Enhanced Scanner initialized!
+2025-06-04 18:38:16,849 - main - INFO - Shutting down...
+2025-06-04 18:38:20,322 - __main__ - INFO - SECURIT IA - AI-Enhanced Vulnerability Scanner
+2025-06-04 18:38:20,323 - __main__ - INFO - ============================================================
+2025-06-04 18:38:20,336 - __main__ - INFO - ============================================================
+2025-06-04 18:38:20,345 - __main__ - INFO - ============================================================
+2025-06-04 18:38:20,354 - __main__ - INFO - ============================================================
+2025-06-04 18:38:20,440 - main - INFO - Starting SECURIT IA Advanced AI-Powered Scanner...
+2025-06-04 18:38:20,509 - main - INFO - Enhanced database initialized successfully with all required columns
+2025-06-04 18:38:20,509 - main - INFO - AI-Enhanced Scanner initialized!
+2025-06-05 10:38:44,875 - __main__ - INFO - SECURIT IA - AI-Enhanced Vulnerability Scanner
+2025-06-05 10:38:44,876 - __main__ - INFO - ============================================================
+2025-06-05 10:38:44,924 - __main__ - INFO - ============================================================
+2025-06-05 10:38:44,935 - __main__ - INFO - ============================================================
+2025-06-05 10:38:44,941 - __main__ - INFO - ============================================================
+2025-06-05 10:38:45,005 - main - INFO - Starting SECURIT IA Advanced AI-Powered Scanner...
+2025-06-05 10:38:45,038 - main - INFO - Enhanced database initialized successfully with all required columns
+2025-06-05 10:38:45,038 - main - INFO - AI-Enhanced Scanner initialized!
+2025-06-05 11:24:33,340 - main - INFO - Shutting down...
